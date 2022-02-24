@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  align-self: center;
+
+  &-item {
+    margin-right: 29px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+  }
+}
+
+.header__content {
+  margin-top: 96px;
+  h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.423077px;
+    color: #4a4ff2;
+  }
+}
+
+.header__content-flex {
+  display: flex;
+  justify-content: space-between;
+
+  &-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
+    max-width: 640px;
+  }
+
+  &-purple {
+    color: #4a4ff2;
+  }
+
+  &-quote {
+    font-family: 'Mulish';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    align-self: flex-end;
+  }
+}
