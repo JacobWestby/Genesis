@@ -2,9 +2,9 @@
   display: grid;
   grid-template: repeat(32, 1fr) / repeat(9, 1fr);
   max-height: 1990px;
-  // max-width: 1200px;
   width: 100%;
   gap: 20px;
+  margin-bottom: 91px;
 
   &-item1 {
     grid-column: 1 / 4;
