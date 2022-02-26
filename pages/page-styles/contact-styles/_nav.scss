@@ -1,7 +1,14 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
+
+  .logo {
+    a {
+      text-decoration: none;
+      color: #111111;
+    }
+  }
 }
 
 .nav__list {
@@ -21,5 +28,10 @@ nav {
     line-height: 23px;
     letter-spacing: -0.346154px;
     color: #111111;
+    transition: all ease-in-out 0.1s;
+
+    &:hover {
+      color: #4a4ff2;
+    }
   }
 }
